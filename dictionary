@@ -1,0 +1,7 @@
+dic= {"Messi":"Barca","Henry":["Arsenal","Barca"],"Figo":["Madrid","Inter"] }
+
+
+print(dic["messi"])
+
+for i in dic:
+ print(dic[i])
