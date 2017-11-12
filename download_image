@@ -1,0 +1,11 @@
+# From Stackoverflow.com
+
+import urllib.request
+
+urllib.request.urlretrieve("https://dj0j0ofql4htg.cloudfront.net/cms2/image_manager/uploads/News/281744/7/default.jpg", "new.jpg")
+
+'''
+f = open('test.jpg',"wb")
+f.write(urllib.request.urlopen("http://www.eurovision.de/unser_song_2017/lena1058_v-zweispaltig.jpg").read())
+f.close()
+'''
