@@ -1,0 +1,6 @@
+OPEN CMD as admin
+>> cd C:\Program Files\Python36\Scripts 
+>> pip install numpy
+>> pip install matplotlib
+>> pip3.6.exe install opencv_python
+
