@@ -1,0 +1,32 @@
+from tkinter import *
+
+root=Tk()
+
+left=0
+right=0
+mid=0
+
+def leftClick(event):
+    global left
+    left+=1
+    print("LEFT" + str(left))
+def middleClick(event):
+    global mid
+    mid+=1
+    print("MIDDLE" + str(mid))
+def rightClick(event):
+    global right
+    right+=1
+    print("RIGHT"+ str(right))
+
+
+frame=Frame(root,width=200,height=200)
+
+frame.bind("<Button-1>",leftClick)
+frame.bind("<Button-2>",middleClick)
+frame.bind("<Button-3>",rightClick)
+
+
+frame.pack()
+
+root.mainloop()

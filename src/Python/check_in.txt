@@ -1,0 +1,21 @@
+import random
+import string
+
+checked_in=[]
+
+#checked_in.append()
+
+list=['A','B','C','D','E','F']
+i=0
+
+while True:
+    i+=1
+    no=random.randint(1,40)
+    let=random.randint(0,5)    
+    seat=str(list[let])+str(no)
+    checked_in.append(str(seat))
+    if (i > 10):
+        break
+    
+print(checked_in)
+
